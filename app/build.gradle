@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -38,8 +39,21 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.wear:wear:1.1.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //added libraries
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.airbnb.android:mvrx:1.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'com.steelkiwi:badge-holder-view:1.1.0'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
 }
